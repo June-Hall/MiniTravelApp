@@ -2,12 +2,12 @@
   <div class="home">
     <h1>All Desinations</h1>
     <div class="destinations">
-      <div v-for="destination in destinations" :key="destination.name">
+      <div v-for="destination in destinaitons" :key="destination.name">
         <router-link :to="destination.slug">
-          <h2>{{ destination.name }}</h2>
+          <h2>{{ destinaitons.name }}</h2>
         </router-link>
         <figure>
-          <router-link :to="destination.name">
+          <router-link :to="destinaiton.name">
             <img
               :src="require(`@/assets/${destination.image}`)"
               :alt="destination.name"
@@ -27,23 +27,13 @@ export default {
   components: {},
   data() {
     return {
-      destinations: store.destinations,
+      destinaitons: store.destinations,
     };
   },
 };
 </script>
 <style scoped>
-.home {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-img {
-  max-width: 200px;
-}
-
-.destinations {
-  display: flex;
-  justify-content: space-between;
+.home{
+  max-width: ;
 }
 </style>

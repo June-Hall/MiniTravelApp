@@ -42,7 +42,7 @@ img {
   max-width: 200px;
 }
 
-.destinations {
+.destination {
   display: flex;
   justify-content: space-between;
 }

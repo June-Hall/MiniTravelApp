@@ -2,9 +2,9 @@
   <div class="home">
     <h1>All Desinations</h1>
     <div class="destinations">
-      <div v-for="destination in destinations" :key="destination.name">
+      <div v-for="destination in destinaitons" :key="destination.name">
         <router-link :to="destination.slug">
-          <h2>{{ destination.name }}</h2>
+          <h2>{{ destinaitons.name }}</h2>
         </router-link>
         <figure>
           <router-link :to="destination.name">
@@ -42,7 +42,7 @@ img {
   max-width: 200px;
 }
 
-.destinations {
+.destination {
   display: flex;
   justify-content: space-between;
 }

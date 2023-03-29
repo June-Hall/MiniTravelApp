@@ -34,7 +34,7 @@ const routes = [
   {
     path: "/panama",
     name: "panama",
-    component: () => import("../views/PanamaView.vue"),
+    component: () => import("../views/HawaiiView.vue"),
   },
 ];
 

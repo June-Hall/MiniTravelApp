@@ -32,9 +32,9 @@ const routes = [
     component: () => import("../views/JamaicaView.vue"),
   },
   {
-    path: "/panama",
-    name: "panama",
-    component: () => import("../views/PanamaView.vue"),
+    path: "/hawaii",
+    name: "hawaii",
+    component: () => import("../views/HawaiiView.vue"),
   },
 ];
 

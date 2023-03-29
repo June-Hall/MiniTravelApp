@@ -16,26 +16,6 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
-  {
-    path: "/brazil",
-    name: "brazil",
-    component: () => import("../views/BrazilView.vue"),
-  },
-  {
-    path: "/hawaii",
-    name: "hawaii",
-    component: () => import("../views/HawaiiView.vue"),
-  },
-  {
-    path: "/jamaica",
-    name: "jamaica",
-    component: () => import("../views/JamaicaView.vue"),
-  },
-  {
-    path: "/panama",
-    name: "panama",
-    component: () => import("../views/PanamaView.vue"),
-  },
 ];
 
 const router = createRouter({
